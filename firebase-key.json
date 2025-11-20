@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "oylik-tolovlar",
+  "private_key_id": "0b55a33e1175902c3a0e18d75e5b472b1a6619b4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFytNZCKHeI+Pp\nBh1bt9QGzWtkPx5DvADP2cs3LcC2DlTtj5V3MyHtRRupzcoFO5vWT5WPQtFDpejq\n+EVrxOhjFmRQMqtGY5I+NWGBTdZwjMiuZokgE+yJKyyYSLkLxS1Rj+KHlzoA2yi+\nhmJvMMtllVW/M23y0LSLVvaOYlL+LweJORe91eaGBJQfJ3da3UkeGp/kOlP4Ulxv\nmqvrz0mx86jKcVCcCXmoFOmeJxZQF75HY+kEXQJhaegPozcKaldpSPW7FgPhxS2M\nSPa0BVg8PsVykawM1/PGwRXbpMGAH3FdWS+1xxg7vV2/I4wG8nh9z0O51mbOM0Fj\n+oDyV1olAgMBAAECggEACTojuezpKuUfEL6JnWm/U8Hpgfe1KxEY3e7EctfePEqs\nM5jrLsW343XB4J4KZUwZQloxbp7TXFs1DnZz5p8nqC0Mk6E0KZ3OM2YSHRIghYeh\nJQxWK/pB9/QyVGMFdEMdO3IsQzRkLv4KXI5bBozkMDeolGQ10N9joiHLHBas1dFk\nFRv+dcQACK4cN+DktazJhAbjJSJf06fmJ7qcIXNgWhUda6ki0p60DDdxzPBEmMgW\nTg5WvfYutHiSGglenQoapeh9uKODqEF/KAVWR0vcuVRiIKQ1BMYF498dap3YoGOK\nfhOgKDpB2UnZ62fPOIqPvRreABJxWFsahxLR3u3+0QKBgQD3rrUiwkwzxQ0jF+X5\nPFK80imf4QXSh2sSwBSMJOG2ELQwAB9jlCENjLtpNHLWSkL7z1rwE99+1QWQhiCP\noV9otoZexEaW6PRgpDaF3G6lrbbud9gpGxzGCBH98G/tjbwX5sAJDWYmjx5PQq0a\nGlVGO6iCwKSIOkqJYFe/1nK9pwKBgQDMbzgTM9Ll1G+3+qiaQwj/ONEHC1bsVnd9\n91vSoDqSZCrb+hzpCDoIuOwIeZuPUFojpKOIYIDrRFSbpSF4GEOP6VCFOs9KC+v6\nqkqg6GEbSnJWgLm1Gh1tAAX01ET30hvhFkuYNkysmsiK+c5P9IDQtZi0q3QRQM7p\nLblzXqrbUwKBgQDrfZG9Ta00H6ug7Sz77o3f95YZ69IkXBrCxhwDL2HnQDSB2uv9\nOq6+eksJ+RMiiZLsZjdZQhviNFnJEq3Mwiq7nadeXRGclDsd06P/XBlbrzHZw9qj\nIqMV6kBpB/zziSoIM53sPXAdQ0AXLhb1VYo0b66FOvJ0j6+ktBRaUmPfywKBgBCQ\nWlzD8CyK/9pKRuroz4vOULFfa9WOU/Qy3I++R8CguRBFvZ3r+rfGM+mj4MTF3+fP\naSidmRR23twVjxap8J9yagHBeBYpzR7sOUu8SFHrwEPd/i38RbIVNGZX5JanwXaF\nVe6pR6EckW8hOmQkDWPbstnAopDbTWh7OfFtFC7dAoGANEayDVWiwbiiuYfqxW7H\nZKXTnh20GGPg32//gFTlq+w/0SQ+h4xOz0fcCNjiuAS5x/+T3CNkmJXJPGKz8Kj4\nwQvGRY6rjg0rLWzWRCChQoZMX4CBWwsRDtQ6TYjGmLmuH8C59LVU6BBk1b6YdO5R\njdZ+YaK7SGGHFsubOqO2okY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@oylik-tolovlar.iam.gserviceaccount.com",
+  "client_id": "118145277353819454364",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40oylik-tolovlar.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
