@@ -1,4 +1,5 @@
 import os
+import json
 import logging
 from datetime import datetime, timedelta, timezone
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
@@ -14,11 +15,11 @@ from telegram.ext import (
 import firebase_admin
 from firebase_admin import credentials, firestore
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-import os
 from dotenv import load_dotenv
 
 # .env faylini yuklash
 load_dotenv()
+
 # Logging sozlamalari
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -26,10 +27,30 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Firebase sozlamalari
-cred = credentials.Certificate("firebase-key.json")
-firebase_admin.initialize_app(cred)
-db = firestore.client()
+# Firebase sozlamalari environment variable orqali
+firebase_json = os.getenv("FIREBASE_SERVICE_ACCOUNT")
+if not firebase_json:
+    logger.error("❌ FIREBASE_SERVICE_ACCOUNT topilmadi! .env faylini tekshiring.")
+    exit(1)
+
+try:
+    cred_dict = json.loads(firebase_json)
+    cred = credentials.Certificate(cred_dict)
+    firebase_admin.initialize_app(cred)
+    db = firestore.client()
+    logger.info("✅ Firebase ulanishi muvaffaqiyatli amalga oshirildi.")
+except Exception as e:
+    logger.error(f"❌ Firebase ulanishida xato: {e}")
+    exit(1)
+
+# Bot tokeni
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+if not BOT_TOKEN:
+    logger.error("❌ BOT_TOKEN topilmadi! .env faylini tekshiring.")
+    exit(1)
+
+# Shu yerdan keyingi kodlaringiz o'zgarmaydi
+
 
 # Admin ID
 ADMIN_ID = 1685356708
@@ -805,4 +826,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
